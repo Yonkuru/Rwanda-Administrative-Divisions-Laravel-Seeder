@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This repository provides a complete Rwanda's administrative structure (Provinces, Districts, Sectors, Cells, and Villages) that will be helpful to software developers especially for Laravel applications developers.
+This repository provides a complete Rwanda's administrative divisions structure (Provinces, Districts, Sectors, Cells, and Villages) that will be helpful to software developers especially for Laravel applications developers.
 
 ## 🚀 Implementation
 
@@ -13,7 +13,7 @@ This repository provides a complete Rwanda's administrative structure (Provinces
 
    **OR**
 
-   **Clone the whole repository (Not recommended)**
+**Clone the whole repository (Not recommended)**
 ```bash
 git clone https://github.com/Yonkuru/Rwanda-Administrative-Divisions-Laravel-Seeder.git
 ```
@@ -64,3 +64,6 @@ The package creates the following tables with relationships:
 - *Cell → belongsTo → Sector*
 - *Cell → hasMany → Village*
 - *Village → belongsTo → Cell*
+
+##
+**Author:** *Y. Blaise*
