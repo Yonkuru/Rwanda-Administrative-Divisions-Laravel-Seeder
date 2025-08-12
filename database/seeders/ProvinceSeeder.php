@@ -14,11 +14,11 @@ class ProvinceSeeder extends Seeder
     public function run(): void
     {
         $provinces = [
-            ['prv_name' => 'Kigali City'],
-            ['prv_name' => 'Southern Province'],
-            ['prv_name' => 'Western Province'],
-            ['prv_name' => 'Northern Province'],
-            ['prv_name' => 'Eastern Province'],
+            ['prv_name' => 'Kigali'],
+            ['prv_name' => 'South'],
+            ['prv_name' => 'West'],
+            ['prv_name' => 'North'],
+            ['prv_name' => 'East'],
         ];
 
         foreach ($provinces as $province) {
